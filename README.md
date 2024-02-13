@@ -1,3 +1,7 @@
+# Sanity with Nextjs
+
+### Youtube tutorial: https://youtu.be/Lydgf-Hvla4?si=TGuLtEtPDJ7a0Ac2
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
