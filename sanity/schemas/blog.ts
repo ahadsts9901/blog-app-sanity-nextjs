@@ -19,14 +19,6 @@ export default {
             type: "image",
         },
         {
-            name: "slug",
-            title: "Slug",
-            type: "slug",
-            options: {
-                source: "title"
-            }
-        },
-        {
             name: "content",
             title: "Content",
             type: "array",

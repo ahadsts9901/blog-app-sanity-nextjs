@@ -12,7 +12,7 @@ const Blog = (props: any) => {
             </h2>
             <p className='text-[0.7rem] text-left w-full h-fit text-zinc-600 mb-2'>{moment(props?.createdAt).fromNow()}</p>
             <p className='text-[0.8rem] text-left w-full h-fit text-zinc-700 mb-4'>{(props?.text).split("").slice(0, 70)} ...</p>
-            <Link href={`/blog/${props?.currentSlug}`} className='cursor-pointer w-full mt-[auto] bg-blue-600 text-white text-center p-2 rounded-md text-[0.6rem]'>Read More</Link>
+            <Link href={`/blog/${props?._id}`} className='cursor-pointer w-full mt-[auto] bg-blue-600 text-white text-center p-2 rounded-md text-[0.6rem]'>Read More</Link>
         </div>
     )
 }

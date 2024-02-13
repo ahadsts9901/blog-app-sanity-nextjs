@@ -10,9 +10,9 @@ async function getData() {
 
       title,
       description,
-      "currentSlug": slug.current,
       image,
-      "createdAt": _createdAt 
+      "createdAt": _createdAt,
+      _id
 
   }`
 
@@ -33,7 +33,7 @@ export default async function Home() {
           data.map((blog, index) => (
             <Blog key={index} title={blog?.title}
               text={blog?.description} image={blog?.image}
-              createdAt={blog?.createdAt} currentSlug={blog?.currentSlug} />
+              createdAt={blog?.createdAt} _id={blog?._id} />
           ))
         }
       </div>
