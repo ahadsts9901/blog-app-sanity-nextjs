@@ -4,6 +4,8 @@ import { blog } from '@/app/lib/interface'
 import Navbar from '@/app/components/Navbar'
 import { PortableText } from '@portabletext/react'
 
+export const revalidate = 30; // revalidate at most 30 seconds
+
 const getData = async (id: any) => {
 
     const query = `

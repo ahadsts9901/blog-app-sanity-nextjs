@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { blogCard } from "./lib/interface";
 import { client } from "./lib/sanity";
 
+export const revalidate = 30; // revalidate at most 30 seconds
 async function getData() {
 
   const query = `
